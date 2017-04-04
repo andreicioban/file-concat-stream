@@ -1,0 +1,18 @@
+{
+  "name": "file-concat-stream",
+  "version": "1.0.0",
+  "description": "Concat files withour running out of memory",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "concat",
+    "files",
+    "concat",
+    "stream",
+    "concat"
+  ],
+  "author": "Andrei Cioban",
+  "license": "MIT"
+}
