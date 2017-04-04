@@ -1,18 +1,31 @@
 {
   "name": "file-concat-stream",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "Concat files withour running out of memory",
-  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/andreicioban/file-concat-stream.git"
+  },
+  "author": "Andrei Cioban (https://github.com/andreicioban)",
+  "main": "./lib/index.js",
   "scripts": {
-    "test": "test"
+    "test": "istanbul cover ./node_modules/mocha/bin/_mocha --reporter spec -- test/*.spec.js"
+  },
+  "directories": {
+    "lib": "./lib"
+  },
+  "devDependencies": {
+    "istanbul": "*",
+    "mocha": "*"
+  },
+  "engines": {
+    "node": ">=0.12"
   },
   "keywords": [
     "concat",
     "files",
-    "concat",
-    "stream",
-    "concat"
+    "big-files",
+    "stream"
   ],
-  "author": "Andrei Cioban",
   "license": "MIT"
 }
