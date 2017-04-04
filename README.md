@@ -1,5 +1,5 @@
 # file-concat-stream
-Concat files using streams. Especially built for concatenating large files without running out of memory.
+Concat files using streams. Especially built for concatenation of large files without running out of memory.
 
 # Usage
 
