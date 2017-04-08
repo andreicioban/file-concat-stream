@@ -1,13 +1,13 @@
 {
   "name": "file-concat-stream",
   "version": "0.1.0",
-  "description": "Concat files withour running out of memory",
+  "description": "Concat files without running out of memory",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/andreicioban/file-concat-stream.git"
   },
   "author": "Andrei Cioban (https://github.com/andreicioban)",
-  "main": "./lib/index.js",
+  "main": "./lib/concat.js",
   "scripts": {
     "test": "istanbul cover ./node_modules/mocha/bin/_mocha --reporter spec -- test/*.spec.js"
   },
