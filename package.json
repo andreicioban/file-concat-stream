@@ -4,7 +4,7 @@
   "description": "Concat files withour running out of memory",
   "repository": {
     "type": "git",
-    "url": "git://github.com/andreicioban/file-concat-stream.git"
+    "url": "git+https://github.com/andreicioban/file-concat-stream.git"
   },
   "author": "Andrei Cioban (https://github.com/andreicioban)",
   "main": "./lib/index.js",
