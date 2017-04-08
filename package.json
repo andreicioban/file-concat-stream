@@ -9,14 +9,16 @@
   "author": "Andrei Cioban (https://github.com/andreicioban)",
   "main": "./lib/concat.js",
   "scripts": {
-    "test": "istanbul cover ./node_modules/mocha/bin/_mocha --reporter spec -- test/*.spec.js"
+    "test": "istanbul cover ./node_modules/mocha/bin/_mocha --reporter spec -- test/*.spec.js",
+    "release": "np"
   },
   "directories": {
     "lib": "./lib"
   },
   "devDependencies": {
     "istanbul": "*",
-    "mocha": "*"
+    "mocha": "*",
+    "np": "^2.13.1"
   },
   "engines": {
     "node": ">=0.12"
