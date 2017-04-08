@@ -14,7 +14,7 @@ This package has no external dependencies and runs on `"node": ">=0.12"`.
 # Usage
 
 ```js
-var concat = require('concat')
+var concat = require('file-concat-stream')
 
 concat(['users.sql', 'profiles.sql'], 'batch.sql', function(){ console.log('Done!') })
 ```
