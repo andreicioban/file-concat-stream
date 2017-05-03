@@ -16,7 +16,11 @@ This package has no external dependencies and runs on `"node": ">=0.12"`.
 ```js
 var concat = require('file-concat-stream')
 
-concat(['users.sql', 'profiles.sql'], 'batch.sql', function(){ console.log('Done!') })
+concat(['users.sql', 'profiles.sql'], 'batch.sql', onSuccess, onError)
+
+function onSuccess(){ console.log('Done!') }
+function onError(error){ console.log('Something went wrong: ', error) }
+
 ```
 
 # Tests
