@@ -32,7 +32,7 @@ describe('Concat files module', function() {
       assert.throws(function () { concat([], '') }, matchPattern(pattern))
     })
     it('Thrwos an error when callback is not a function', function() {
-      var pattern = /^Error: Expected callback to bea function but got:/i
+      var pattern = /^Error: Expected Success callback to be a function/i
       assert.throws(function () { concat([], '1.txt') }, matchPattern(pattern))
     })
   })
