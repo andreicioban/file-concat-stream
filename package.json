@@ -1,6 +1,6 @@
 {
   "name": "file-concat-stream",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Concat files without running out of memory",
   "repository": {
     "type": "git",
